@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+
+  border-radius: 8px;
+  padding: 24px;
+
+  background-color: white;
+}
+
+.poster {
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.details_container {
+  display: flex;
+  flex-direction: column;
+
+  font-size: 20px;
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .title {
+      font-size: 32px;
+      margin-bottom: 24px;
+    }
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    margin-bottom: 32px;
+
+    span {
+      font-weight: 600;
+    }
+  }
+
+  .description {
+    font-size: 16px;
+
+    .title {
+      font-size: 20px;
+      margin-bottom: 16px;
+    }
+  }
+}

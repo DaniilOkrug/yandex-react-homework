@@ -1,0 +1,39 @@
+.container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+
+  padding: 23px;
+  border-radius: 8px;
+
+  background-color: white;
+}
+
+.details_container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  .header {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 20px;
+
+    .name {
+        font-size: 20px;
+    }
+
+    .rating {
+      font-weight: 600;
+    }
+  }
+}

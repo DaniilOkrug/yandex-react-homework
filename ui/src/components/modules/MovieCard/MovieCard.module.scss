@@ -1,0 +1,50 @@
+.container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+
+  padding: 24px;
+  border-radius: 8px;
+
+  background-color: white;
+}
+
+.poster {
+  object-fit: cover;
+
+  border-radius: 8px;
+}
+
+.description_container {
+  flex-grow: 1;
+}
+
+.description_container .title {
+  font-size: 20px;
+
+  margin-bottom: 8px;
+}
+
+.description_container .genre {
+  font-style: italic;
+}
+
+.actions_container {
+  height: fit-content;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 27.75px;
+
+  .remove_btn {
+    position: relative;
+    top: 2px;
+  }
+}
+
+.title {
+  cursor: pointer;
+}

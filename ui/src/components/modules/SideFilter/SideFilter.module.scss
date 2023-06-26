@@ -1,0 +1,30 @@
+.container {
+  width: 408px;
+  height: calc(100vh - 48px - 84px * 2);
+
+  border-radius: 8px;
+  padding: 24px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  font-size: 14px;
+
+  position: sticky;
+  top: 108px;
+
+  background-color: white;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  margin-bottom: 16px;
+}
+
+.input-group:last-child {
+  margin-bottom: 0;
+}

@@ -1,0 +1,44 @@
+.btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.big {
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+
+.small {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.outlined {
+  background-color: transparent;
+  border: 1px solid;
+  color: #ff5500;
+}
+
+.outlined:hover {
+  border-color: #e94e00;
+}
+
+.outlined:disabled {
+  border-color: #ffa375;
+} 
+
+.filled {
+  background-color: #ff5500;
+  color: white;
+}
+
+.filled:hover {
+  background-color: #e94e00;
+}
+
+.filled:disabled {
+  background-color: #ffa375;
+}

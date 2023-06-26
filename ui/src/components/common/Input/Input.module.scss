@@ -1,0 +1,25 @@
+.input {
+  font-family: "SF Pro Text", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+
+  border: 1px solid #e1e3e6;
+  border-radius: 8px;
+
+  padding: 10px 16px;
+}
+
+.input::placeholder {
+  font-family: "SF Pro Text", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #999fa6;
+}
+
+.input:focus-visible {
+  outline: none;
+}
+
+.input:focus {
+  border-color: #ff5500;
+}
